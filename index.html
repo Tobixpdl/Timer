@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <title>Countdown</title>
 </head>
 <body>
     <canvas id="test"></canvas>
+    <div id="particles-js"></div>
     <section class="countdown-container">
         <div class="days-container">
             <canvas class="circle" id="days-circle"></canvas>
             <div class="days"></div>
             <div class="days-label">Dias</div>
         </div>
-        
+
         <div class="hours-container">
             <canvas class="circle" id="hours-circle"></canvas>
             <div class="hours"></div>
             <div class="hours-label">Horas</div>
         </div>
-        
+
         <div class="minutes-container">
             <canvas class="circle" id="minutes-circle"></canvas>
             <div class="minutes"></div>
             <div class="minutes-label">Minutos</div>
         </div>
-        
+
         <div class="seconds-container">
             <canvas class="circle" id="seconds-circle"></canvas>
             <div class="seconds"></div>
@@ -34,5 +35,7 @@
         </div>
     </section>
     <script src="script.js"></script>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
